@@ -519,24 +519,46 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
   String get menuBarMenuLabel => throw UnimplementedError();
 
   @override
-  // TODO: implement bottomSheetLabel
-  String get bottomSheetLabel => throw UnimplementedError();
+  String get bottomSheetLabel => "";
 
   @override
-  // TODO: implement currentDateLabel
   String get currentDateLabel => throw UnimplementedError();
 
   @override
-  // TODO: implement keyboardKeyShift
   String get keyboardKeyShift => throw UnimplementedError();
 
   @override
-  // TODO: implement scrimLabel
   String get scrimLabel => throw UnimplementedError();
 
   @override
-  // TODO: implement scrimOnTapHintRaw
   String get scrimOnTapHintRaw => throw UnimplementedError();
+
+  @override
+  String get collapsedHint => throw UnimplementedError();
+
+  @override
+  // TODO: implement expandedHint
+  String get expandedHint => throw UnimplementedError();
+
+  @override
+  // TODO: implement expansionTileCollapsedHint
+  String get expansionTileCollapsedHint => throw UnimplementedError();
+
+  @override
+  // TODO: implement expansionTileCollapsedTapHint
+  String get expansionTileCollapsedTapHint => throw UnimplementedError();
+
+  @override
+  // TODO: implement expansionTileExpandedHint
+  String get expansionTileExpandedHint => throw UnimplementedError();
+
+  @override
+  // TODO: implement expansionTileExpandedTapHint
+  String get expansionTileExpandedTapHint => throw UnimplementedError();
+
+  @override
+  // TODO: implement scanTextButtonLabel
+  String get scanTextButtonLabel => throw UnimplementedError();
 }
 
 const kuDateSymbols = {
